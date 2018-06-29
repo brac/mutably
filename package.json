@@ -1,6 +1,9 @@
 {
   "name": "mutably",
   "version": "0.0.2",
+  "engines": {
+    "node": "8.9.4"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
