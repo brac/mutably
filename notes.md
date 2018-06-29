@@ -8,7 +8,7 @@ First I will do the google fetch lab
 
 Now that that's done...
 
-I think that the fastest way will be for me to take the base code that was left on the LG github page and deploy my own copy of mutably. I've removed the branding and now I have a plan. Assume I can get it to deploy things should go like this:
+I think that the fastest way will be for me to take the base code that was left on the LG github page and deploy my own copy of mutably. I've removed the branding and now I have a plan. Assume I can get it to deploy things should go like this.
 
 ### Plan:
   * Get the app running locally
