@@ -22,7 +22,8 @@ app.set('view engine', 'ejs');
 mongoose.connect(
   process.env.MONGODB_URI ||
   process.env.MONGOHQ_URL ||
-  'mongodb://localhost/mutably'
+  'mongodb://brac:Dor48it8!@ds123171.mlab.com:23171/heroku_044tr3vk'
+  // 'mongodb://localhost/mutably'
 );
 
 // require models and seed data

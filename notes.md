@@ -19,13 +19,21 @@ I think that the fastest way will be for me to take the base code that was left 
 
 
 
-Notes:
-mongo CLI
-List all objects in a collection
-`db.books.find()`
+*Notes:*
+How do I list all the objects in a mongo db?
+```bash
+mongo
+show dbs
+use <db>
+show collections
+db.collection.find()
+```
 
-Reset / Seed App:
-`POST /reset`
+How do I reset / seed the database?
+`POST` to `/reset` or navigate to `/reset` for a button
+
+What is my heroku URL?
+`heroku info -s | grep web_url | cut -d= -f2`
 
 ## Original Specs
 ### Description
