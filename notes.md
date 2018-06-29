@@ -6,6 +6,27 @@ I could make my own RESTful API and deploy that to Heroku (even by the same name
 
 First I will do the google fetch lab
 
+Now that that's done...
+
+I think that the fastest way will be for me to take the base code that was left on the LG github page and deploy my own copy of mutably. I've removed the branding and now I have a plan. Assume I can get it to deploy things should go like this:
+
+### Plan:
+  * Get the app running locally
+  - Deploy the app to Heroku
+  - Fork scaffolding
+  - Plan App
+
+
+
+
+Notes:
+mongo CLI
+List all objects in a collection
+`db.books.find()`
+
+Reset / Seed App:
+`POST /reset`
+
 ## Original Specs
 ### Description
 
