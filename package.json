@@ -2,7 +2,7 @@
   "name": "mutably",
   "version": "0.0.2",
   "engines": {
-    "node": "8.9.4"
+    "node": "10"
   },
   "description": "",
   "main": "server.js",
